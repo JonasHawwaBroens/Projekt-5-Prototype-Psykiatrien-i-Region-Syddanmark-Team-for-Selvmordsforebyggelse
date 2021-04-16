@@ -1,3 +1,6 @@
+body{
+    font-family: 'Fira Code', monospace;    
+}
 .dropdown{
     height: 0%;
     width: 100%;
@@ -5,7 +8,7 @@
     z-index: 100;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color: red; 
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -31,14 +34,27 @@
 }
 
 .hamburger{
-    color: black;
+    color: #0e4749;
     left: 10px;
     top: 20px;
     font-size: 50px;
     cursor: pointer;
 }
-
-
+.hamburger:hover{
+    color: #0e4749;
+    opacity: 75%;
+    transition: 0.75s;
+    left: 10px;
+    top: 20px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.dropdown .buttonX {
+    top: 20px;
+    right: 50px;
+    font-size: 70px;
+    color: #73937e;
+}
 
 /* ----------- iPhone X ----------- */
 
