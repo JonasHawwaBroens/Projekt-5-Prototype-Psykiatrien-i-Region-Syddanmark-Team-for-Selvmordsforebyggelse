@@ -1,3 +1,15 @@
+.dropdown{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
