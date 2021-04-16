@@ -26,6 +26,20 @@
     transition: 0.3s;
 }
 
+.dropdown a:hover, .dropdown a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.hamburger{
+    color: black;
+    left: 10px;
+    top: 20px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
