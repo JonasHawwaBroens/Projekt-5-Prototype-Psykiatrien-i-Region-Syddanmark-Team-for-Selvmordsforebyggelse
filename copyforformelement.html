@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projekt5stylesheet.css">
+    <title>Copy for form-element</title>
+</head>
+<body>
+      <dropdown-menu id="myMenu" class="dropdown">
+        <a href="javascript: void(0)" class="buttonX" onclick="closeMenu()">&times;</a>
+          <div class="dropdown-lists">
+            <a href="#">Afklaringsforløbet</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Faserne</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Afregningen</a>
+          </div>
+      </dropdown-menu>
+        <span class="hamburger" onclick="openMenu()">&#9776;</span>
+
+    <grid-container class="grid-container">
+      
+      <header class="header-index">
+
+        <div class="header-image-index">
+        </div>
+
+      </header>
+
+      <main class="main-content">
+
+        <wrapper class="submain-left">
+        </wrapper>
+
+        <quote-box-left class="quote-box-left">
+          <div class="jan">
+          </div>
+        </quote-box-left>
+
+        <form action="" class="main-form">
+          
+          <div class="form-group">
+            <label for="name">*Din email...</label>
+            <input type="text" id="name" class="gt-input">
+          </div>
+
+          <div class="form-group">
+            <label for="name">Emne...</label>
+            <input type="text" id="name" class="gt-input">
+          </div>
+
+          <div class="form-group">
+            <label for="name">*Dit spørgsmål...</label>
+            <textarea name="message" id="email" cols="30" 
+            rows="10" class="gt-input gt-text"></textarea>
+          </div>
+
+          <input type="submit" class="gt-button" value="Submit">
+
+          <div class="form-status">
+            Status:
+          </div>
+
+        </form>
+
+        <quote-box-left class="quote-box-right">
+          <div class="anna">
+          </div>
+        </quote-box-left>
+
+      </main>
+
+      <footer class="footer-index">
+
+        <div class="footer-image-index">
+        </div>
+
+      </footer>
+
+    </grid-container>
+
+    <script src="funktionen.js"></script>
+</body>
+</html>
