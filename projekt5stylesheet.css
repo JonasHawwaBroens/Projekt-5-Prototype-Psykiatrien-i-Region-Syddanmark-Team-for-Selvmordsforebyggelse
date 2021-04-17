@@ -56,6 +56,129 @@ body{
     color: #73937e;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(150px, auto);
+    grid-template-areas: 
+    "header" "header"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "main" "main"
+    "footer" "footer"
+    "footer" "footer";
+}
+
+.header-index {
+    grid-area: header;
+    background-color: blue;
+}
+
+.header-image-index {
+    display: grid;
+    background-color: yellow;
+    height: 120px;
+    width: 98.9%;
+    position: absolute;
+    left: 7,5px;
+    top: 73px;
+}
+
+.main-content {
+    grid-area: main;
+    background-color: lime;
+}
+
+.submain-left {
+    display: grid;
+    background-color: orchid;
+    height: 7200px;
+    width: 400px;
+    right: 50px;
+}
+
+.quote-box-left {
+    display: grid;
+    background-color: maroon;
+    height: 650px;
+    width: 450px;
+    position: absolute;
+    right: 475px;
+    top: 900px;
+    border-top-right-radius: 30px;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+}
+
+.jan {
+    display: grid;
+    background-color: orangered;
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    right: 90px;
+    top: 75px;
+}
+
+.quote-box-right {
+    display: grid;
+    background-color: maroon;
+    height: 650px;
+    width: 450px;
+    position: absolute;
+    right: 100px;
+    top: 6700px;
+    border-top-left-radius: 30px;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+}
+
+.anna {
+    display: grid;
+    background-color: orangered;
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    right: 90px;
+    top: 75px;
+}
+
+.footer-index {
+    grid-area: footer;
+    background-color: yellow;
+}
+
+.footer-image-index {
+    display: grid;
+    background-color: goldenrod;
+    height: 375px;
+    width: 98.5%;
+    position: absolute;
+    right: 10px;
+    top: 7795px;
+}
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
