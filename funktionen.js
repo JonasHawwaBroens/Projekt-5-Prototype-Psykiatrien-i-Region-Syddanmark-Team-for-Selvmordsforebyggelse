@@ -17,6 +17,8 @@ for (let i = 0; i < GTInput.length; i++) {
     })
 
     GTInput[i].addEventListener("blur", function() {
+        if(GTInput[i].value === "") {
         currentLabel.classList.remove("move-up");
+        }
     })
 }

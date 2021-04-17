@@ -223,10 +223,11 @@ label {
     transform: translateY(-50%);
     margin-left: 24px;
     cursor: text;
+    z-index: 1;
 }
 
 .gt-button {
-    width: 100%;
+    width: 50%;
     height: 60px;
     font-size: 20px;
     text-transform: uppercase;
