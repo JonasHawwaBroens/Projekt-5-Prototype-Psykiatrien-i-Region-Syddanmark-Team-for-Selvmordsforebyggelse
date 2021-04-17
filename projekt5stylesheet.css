@@ -131,6 +131,13 @@ body{
     border-end-end-radius: 30px;
 }
 
+.paragraph1, .paragraph2 {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    font-size: 50px;
+}
+
 .jan {
     display: grid;
     background-color: orangered;
