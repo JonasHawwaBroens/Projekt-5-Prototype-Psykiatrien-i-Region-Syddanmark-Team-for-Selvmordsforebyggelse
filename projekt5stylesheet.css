@@ -118,6 +118,16 @@ body{
     top: 195px;
 }
 
+.header-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left: 830px;
+    top: 25px;
+    z-index: 99;
+}
+
 .main-content {
     grid-area: main;
     background-color: rgb(246, 246, 246);
@@ -129,6 +139,10 @@ body{
     height: 7200px;
     width: 400px;
     right: 50px;
+}
+
+.contact-info-main-left {
+    font-size: 30px;
 }
 
 .info-icon {
@@ -199,7 +213,9 @@ body{
 
 .footer-image-index {
     display: grid;
-    background-color: goldenrod;
+    background-image: url(Images/Footer-image.jpg);
+    background-size: 1400px;
+    background-position: .5px;
     height: 375px;
     width: 98.5%;
     position: absolute;
