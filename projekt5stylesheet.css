@@ -200,6 +200,17 @@ body{
     left: 1150px;
 }
 
+.clinics-title {
+    top: 500px;
+    left: 500px;
+    color: rgb(121, 135, 143);
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 410px;
+    left: 1075px;
+}
+
 .get-help-title {
     top: 500px;
     left: 500px;
@@ -612,6 +623,17 @@ body{
     top: 25px;
 }
 
+.caecilie {
+    display: grid;
+    background-image: url(Images/Cæcilie.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
 .index-text-element-15 {
     font-size: 25px;
     font-family: 'Fira Sans', sans-serif;
@@ -621,6 +643,29 @@ body{
     color: white;
     position: absolute;
     top: 375px;
+    left: 90px;
+}
+
+.get-help-text-element-11 {
+    font-size: 21px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 90px;
+}
+.get-help-text-element-12 {
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 545px;
     left: 90px;
 }
 
@@ -646,6 +691,32 @@ body{
     position: absolute;
     top: 6675px;
     left: 470px;
+}
+
+.get-help-text-element-13 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 26px;
+    line-height: 35px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 6700px;
+    left: 470px;  
+}
+
+.get-help-text-element-14 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 35px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 7240px;
+    left: 470px; 
 }
 
 .index-text-element-18 {
