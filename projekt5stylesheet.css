@@ -106,6 +106,19 @@ body{
     top: 73px;
 }
 
+.header-image-subpage-1 {
+    display: grid;
+    background-image: url(Images/Header-subpage-1.jpg);
+    background-size: 110% 500%;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    height: 120px;
+    width: 98.9%;
+    position: absolute;
+    left: 7,5px;
+    top: 73px;
+}
+
 .header-image-subpage-3 {
     display: grid;
     background-image: url(Images/Header-subpage-3.jpg);
@@ -177,7 +190,7 @@ body{
     left: 50px;
 }
 
-.info-icon {
+.info-icon, .clinic-icon {
     position: absolute;
     top: 430px;
     right: 60px;
@@ -207,8 +220,8 @@ body{
     font-size: 40px;
     font-weight: bold;
     position: absolute;
-    top: 410px;
-    left: 1075px;
+    top: 395px;
+    left: 1050px;
 }
 
 .get-help-title {
