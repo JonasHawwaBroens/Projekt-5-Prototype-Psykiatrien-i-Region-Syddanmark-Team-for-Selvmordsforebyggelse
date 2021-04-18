@@ -106,6 +106,18 @@ body{
     top: 73px;
 }
 
+.header-image-subpage-3 {
+    display: grid;
+    background-image: url(Images/Header-subpage-3.jpg);
+    background-size: 2400px 1000px;
+    background-position-y: 450px;
+    height: 120px;
+    width: 98.9%;
+    position: absolute;
+    left: 7,5px;
+    top: 73px;
+}
+
 .header-branding {
     display: grid;
     background-image: url(Images/Branding.jpg);
@@ -171,6 +183,12 @@ body{
     right: 60px;
 }
 
+.get-help-icon {
+    position: absolute;
+    top: 450px;
+    right: 60px;
+}
+
 .index-title {
     top: 500px;
     left: 500px;
@@ -182,7 +200,18 @@ body{
     left: 1150px;
 }
 
-.index-text-element-1 {
+.get-help-title {
+    top: 500px;
+    left: 500px;
+    color: rgb(121, 135, 143);
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 410px;
+    left: 1100px;
+}
+
+.index-text-element-1, .get-help-text-element-1 {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 60px;
@@ -193,7 +222,7 @@ body{
     left: 590px;
 }
 
-.index-text-element-2 {
+.index-text-element-2, .get-help-text-element-2 {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
@@ -204,6 +233,69 @@ body{
     position: absolute;
     top: 730px;
     left: 590px;
+}
+
+.get-help-text-element-3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    opacity: 75%;
+    position: absolute;
+    top: 1670px;
+    left: 590px;
+}
+
+.info-card {
+    position: absolute;
+    top: 1840px;
+    left: 520px;
+}
+
+.get-help-text-element-4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    opacity: 75%;
+    position: absolute;
+    top: 1800px;
+    left: 990px;
+}
+
+.get-help-text-element-5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    opacity: 75%;
+    position: absolute;
+    top: 2050px;
+    left: 990px;
+}
+
+.list-of-links {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    opacity: 75%;
+    position: absolute;
+    top: 2220px;
+    left: 1015px;
+}
+.link-1, .link-2 {
+    text-decoration: none;
 }
 
 .index-text-element-3 {
@@ -313,6 +405,17 @@ body{
     top: 25px;
 }
 
+.karen {
+    display: grid;
+    background-image: url(Images/Karen.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
 .index-text-element-5 {
     font-size: 25px;
     font-family: 'Fira Sans', sans-serif;
@@ -323,6 +426,30 @@ body{
     position: absolute;
     top: 375px;
     left: 90px;
+}
+
+.get-help-text-element-6 {
+    font-size: 19.5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 110px;
+}
+
+.get-help-text-element-7 {
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 555px;
+    left: 110px;
 }
 
 .index-text-element-6 {
@@ -349,7 +476,19 @@ body{
     left: 1000px;
 }
 
-.index-text-element-8 {
+.get-help-text-element-8 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2475px;
+    left: 1000px;
+}
+
+.index-text-element-8, .get-help-text-element-9 {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
@@ -370,7 +509,65 @@ body{
     color: rgb(112, 112, 112);
     opacity: 75%;
     position: absolute;
-    top: 3275px;
+    top: 3575px;
+    left: 590px;
+}
+
+.index-text-element-10 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 3700px;
+    left: 590px;
+}
+
+.index-text-element-11{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 3790px;
+    left: 590px;
+}
+
+.index-text-element-12 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 4850px;
+    left: 590px;
+}
+
+.index-text-element-13 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 5000px;
+    left: 590px;
+}
+
+.index-text-element-14 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 5350px;
     left: 590px;
 }
 
@@ -398,9 +595,98 @@ body{
     top: 25px;
 }
 
+.index-text-element-15 {
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 90px;
+}
+
+.index-text-element-16 {
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 545px;
+    left: 90px;
+}
+
+.index-text-element-17 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    line-height: 55px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 6675px;
+    left: 470px;
+}
+
+.index-text-element-18 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 7240px;
+    left: 470px;
+}
+
 .footer-index {
     grid-area: footer;
     background-color: rgb(121, 135, 143);
+}
+
+.contact-info-footer-1 {
+    font-size: 25px;
+    opacity: 95%;
+    color: white;
+    position: absolute;
+    top: 7585px;
+    left: 60px;
+}
+
+.contact-info-footer-2 {
+    font-size: 15px;
+    line-height: 21.5px;
+    opacity: 95%;
+    color: white;
+    position: absolute;
+    top: 7640px;
+    left: 60px;
+}
+
+.contact-info-footer-3 {
+    font-size: 18px;
+    line-height: 27.5px;
+    opacity: 95%;
+    color: white;
+    position: absolute;
+    top: 7600px;
+    left: 1075px;
+}
+
+.contact-info-footer-4 {
+    font-size: 18px;
+    line-height: 27.5px;
+    opacity: 95%;
+    color: white;
+    position: absolute;
+    top: 7670px;
+    left: 1075px;
 }
 
 .footer-image-index {
