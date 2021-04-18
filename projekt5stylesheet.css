@@ -141,14 +141,152 @@ body{
     right: 50px;
 }
 
-.contact-info-main-left {
-    font-size: 30px;
+.contact-info-main-left-1 {
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+
+.contact-info-main-left-2 {
+    font-size: 19px;
+    color: rgb(112, 112, 112);
+    position: absolute;
+    top: 500px;
+    left: 65px;
+}
+
+.contact-info-main-left-3 {
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    position: absolute;
+    top: 800px;
+    left: 50px;
 }
 
 .info-icon {
     position: absolute;
     top: 430px;
     right: 60px;
+}
+
+.index-title {
+    top: 500px;
+    left: 500px;
+    color: rgb(121, 135, 143);
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 410px;
+    left: 1150px;
+}
+
+.index-text-element-1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 550px;
+    left: 590px;
+}
+
+.index-text-element-2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    opacity: 75%;
+    position: absolute;
+    top: 730px;
+    left: 590px;
+}
+
+.index-text-element-3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 1450px;
+    left: 590px;
+}
+
+.index-text-element-4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 1660px;
+    left: 590px;
+}
+
+.index-text-element-4-list-1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 1970px;
+    left: 700px;
+}
+
+.index-text-element-4-list-2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2025px;
+    left: 700px;
+}
+
+.index-text-element-4-list-3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2080px;
+    left: 700px;
+}
+
+.index-text-element-4-list-4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2135px;
+    left: 700px;
+}
+
+.index-text-element-4-list-5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2190px;
+    left: 700px;
 }
 
 .quote-box-left {
@@ -158,17 +296,10 @@ body{
     width: 450px;
     position: absolute;
     right: 475px;
-    top: 900px;
+    top: 2500px;
     border-top-right-radius: 30px;
     border-end-start-radius: 30px;
     border-end-end-radius: 30px;
-}
-
-.paragraph1, .paragraph2 {
-    position: absolute;
-    top: 500px;
-    left: 500px;
-    font-size: 50px;
 }
 
 .jan {
@@ -180,6 +311,67 @@ body{
     position: absolute;
     right: 30px;
     top: 25px;
+}
+
+.index-text-element-5 {
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 90px;
+}
+
+.index-text-element-6 {
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 545px;
+    left: 90px;
+}
+
+.index-text-element-7 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    line-height: 55px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2475px;
+    left: 1000px;
+}
+
+.index-text-element-8 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 3040px;
+    left: 1000px;
+}
+
+.index-text-element-9 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 3275px;
+    left: 590px;
 }
 
 .quote-box-right {
