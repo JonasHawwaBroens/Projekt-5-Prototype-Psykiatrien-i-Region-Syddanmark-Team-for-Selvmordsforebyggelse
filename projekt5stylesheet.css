@@ -92,12 +92,13 @@ body{
 
 .header-index {
     grid-area: header;
-    background-color: blue;
+    background-color: transparent;
 }
 
 .header-image-index {
     display: grid;
-    background-color: yellow;
+    background-image: url(Images/Header-image-index.jpg);
+    background-size: cover;
     height: 120px;
     width: 98.9%;
     position: absolute;
@@ -105,22 +106,40 @@ body{
     top: 73px;
 }
 
+.header-branding {
+    display: grid;
+    background-image: url(Images/Branding.jpg);
+    background-size: cover;
+    height: 120px;
+    height: 180px;
+    width: 98.9%;
+    position: absolute;
+    left: 7,5px;
+    top: 195px;
+}
+
 .main-content {
     grid-area: main;
-    background-color: lime;
+    background-color: rgb(246, 246, 246);
 }
 
 .submain-left {
     display: grid;
-    background-color: orchid;
+    background-color: rgb(220, 220, 220);
     height: 7200px;
     width: 400px;
     right: 50px;
 }
 
+.info-icon {
+    position: absolute;
+    top: 430px;
+    right: 60px;
+}
+
 .quote-box-left {
     display: grid;
-    background-color: maroon;
+    background-color: rgb(203, 60, 106);
     height: 650px;
     width: 450px;
     position: absolute;
@@ -140,17 +159,18 @@ body{
 
 .jan {
     display: grid;
-    background-color: orangered;
-    height: 275px;
-    width: 275px;
+    background-image: url(Images/Jan.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
     position: absolute;
-    right: 90px;
-    top: 75px;
+    right: 30px;
+    top: 25px;
 }
 
 .quote-box-right {
     display: grid;
-    background-color: maroon;
+    background-color: rgb(203, 60, 106);
     height: 650px;
     width: 450px;
     position: absolute;
@@ -163,17 +183,18 @@ body{
 
 .anna {
     display: grid;
-    background-color: orangered;
-    height: 275px;
-    width: 275px;
+    background-image: url(Images/Anna.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
     position: absolute;
-    right: 90px;
-    top: 75px;
+    right: 25px;
+    top: 25px;
 }
 
 .footer-index {
     grid-area: footer;
-    background-color: yellow;
+    background-color: rgb(121, 135, 143);
 }
 
 .footer-image-index {
