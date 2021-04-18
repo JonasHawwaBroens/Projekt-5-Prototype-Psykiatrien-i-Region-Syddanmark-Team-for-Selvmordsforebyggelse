@@ -479,12 +479,12 @@ body{
 .get-help-text-element-8 {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
     color: rgb(112, 112, 112);
     opacity: 75%;
     position: absolute;
-    top: 2475px;
+    top: 2490px;
     left: 1000px;
 }
 
@@ -522,6 +522,23 @@ body{
     position: absolute;
     top: 3700px;
     left: 590px;
+}
+
+.get-help-text-element-10 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 3785px;
+    left: 590px;
+}
+
+.mail-icon {
+    position: absolute;
+    top: 4210px;
+    left: 570px;
 }
 
 .index-text-element-11{
@@ -708,7 +725,7 @@ body{
     width: 700px;
     height: 200%;
     position: absolute;
-    top: 3750px;
+    top: 4300px;
     left: 575px;
     padding: 32px 20px;
 }
