@@ -119,6 +119,19 @@ body{
     top: 73px;
 }
 
+.header-image-subpage-2 {
+    display: grid;
+    background-image: url(Images/Header-subpage-2.jpg);
+    background-size: 110% 500%;
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    left: 7,5px;
+    top: 73px;
+}
+
 .header-image-subpage-3 {
     display: grid;
     background-image: url(Images/Header-subpage-3.jpg);
@@ -190,7 +203,7 @@ body{
     left: 50px;
 }
 
-.info-icon, .clinic-icon {
+.info-icon, .clinic-icon, .procedure-icon {
     position: absolute;
     top: 430px;
     right: 60px;
@@ -308,13 +321,156 @@ body{
 
 .jakob {
     display: grid;
-    background-image: url(Images/.jpeg);
+    background-image: url(Images/Jakob.jpeg);
     background-size: cover;
     height: 400px;
     width: 400px;
     position: absolute;
     right: 30px;
     top: 25px;
+}
+
+.inge {
+    display: grid;
+    background-image: url(Images/Inge.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+.about-the-procedure-text-element-7 {
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 25px;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 90px;
+}
+
+.about-the-procedure-text-element-8 {
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 545px;
+    left: 90px;
+}
+
+.about-the-procedure-text-element-9 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    line-height: 37px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2500px;
+    left: 1000px;
+}
+
+.about-the-procedure-text-element-11 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 3700px;
+    left: 590px;
+}
+
+.about-the-procedure-text-element-12 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 3870px;
+    left: 590px;
+}
+
+.about-the-procedure-text-element-13 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 4900px;
+    left: 590px;
+}
+
+.about-the-procedure-text-element-14 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 5050px;
+    left: 590px;
+}
+
+.about-the-procedure-text-element-15 {
+    font-size: 18.5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 90px;
+}
+
+.about-the-procedure-text-element-16 {
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 545px;
+    left: 90px;
+}
+
+.about-the-procedure-text-element-17 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20.5px;
+    line-height: 35px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 6700px;
+    left: 470px;
+}
+
+.about-the-procedure-text-element-18 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 7265px;
+    left: 470px;
 }
 
 .info-graphic-south-denmark {
@@ -492,8 +648,8 @@ body{
     font-size: 40px;
     font-weight: bold;
     position: absolute;
-    top: 410px;
-    left: 1045px;
+    top: 395px;
+    left: 985px;
 }
 
 .get-help-text-element-3 {
@@ -760,7 +916,7 @@ body{
     left: 1000px;
 }
 
-.index-text-element-8, .get-help-text-element-9 {
+.index-text-element-8, .about-the-procedure-text-element-10, .get-help-text-element-9 {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
