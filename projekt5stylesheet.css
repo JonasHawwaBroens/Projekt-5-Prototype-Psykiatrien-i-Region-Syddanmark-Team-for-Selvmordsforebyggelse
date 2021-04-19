@@ -8,7 +8,7 @@ body{
     z-index: 100;
     top: 0;
     left: 0;
-    background-image: url(images/Dropdown-element.jpeg);
+    background-image: url(Images/Dropdown-element.jpeg);
     background-size: cover; 
     overflow-y: hidden;
     transition: 0.5s;
@@ -1273,7 +1273,7 @@ label {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    border: 2;
+    border: 1.5px solid white;
     color: white;
     background: rgb(203, 60, 91);
     transition: .4s;
