@@ -235,7 +235,7 @@ body{
     left: 1100px;
 }
 
-.index-text-element-1, .clinics-text-element-1 ,.get-help-text-element-1 {
+.index-text-element-1, .clinics-text-element-1, .about-the-procedure-text-element-1, .get-help-text-element-1 {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 60px;
@@ -246,7 +246,7 @@ body{
     left: 590px;
 }
 
-.index-text-element-2, .clinics-text-element-2, .get-help-text-element-2 {
+.index-text-element-2, .clinics-text-element-2, .about-the-procedure-text-element-2, .get-help-text-element-2 {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
@@ -257,6 +257,64 @@ body{
     position: absolute;
     top: 730px;
     left: 590px;
+}
+
+.about-the-procedure-text-element-3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 1330px;
+    left: 590px;
+}
+
+.about-the-procedure-text-element-4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 1500px;
+    left: 590px;
+}
+
+.about-the-procedure-text-element-5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2020px;
+    left: 590px;
+}
+
+.about-the-procedure-text-element-6 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgb(112, 112, 112);
+    opacity: 75%;
+    position: absolute;
+    top: 2180px;
+    left: 590px;
+}
+
+.jakob {
+    display: grid;
+    background-image: url(Images/.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
 }
 
 .info-graphic-south-denmark {
